@@ -31,8 +31,7 @@
   Revision History: 2016-05-17 Eric Parapini - Updated location of the next of kin to be with the patient information
   Revision History: 2016-06-08 Eric Parapini - Removed Emergency Contact Table of Contents
   Revision History: 2016-08-06 Eric Parapini - Table of Contents Drag and Drop
-  Revision History: 2016-08-08 Eric Parapini - Document Type shows up in rendered view
-  Revision History: 2016-11-14 Eric Parapini - Further Separating supporting libraries
+  Revision History: 2016-08-08 Eric Parapini - Document Type shows up in ren History: 2016-11-14 Eric Parapini - Further Separating supporting libraries
   Revision History: 2017-02-09 Eric Parapini - Fixed Bug removing styleCodes
   Revision History: 2017-02-24 Eric Parapini - Fixed titles
   Revision History: 2017-02-26 Eric Parapini - Cleaned up some code
@@ -73,7 +72,7 @@ limitations under the License.
   <xsl:include href="cda-style.xsl"/>
   <xsl:include href="cda-js-dependencies.xsl"/>
 
-  <xsl:output method="html" indent="yes" version="4.01" encoding="UTF-8"
+  <xsl:output method="html" indent="yes" version="4.01" encoding="UTF-8"and 
     doctype-system="http://www.w3.org/TR/html4/strict.dtd"
     doctype-public="-//W3C//DTD HTML 4.01//EN"/>
   <xsl:param name="limit-external-images" select="'yes'"/>
